@@ -246,7 +246,7 @@ var AppIndicatorProxy = GObject.registerClass({
 var AppIndicator = class AppIndicatorsAppIndicator {
 
     static get NEEDED_PROPERTIES() {
-        return ['Id', 'Menu'];
+        return ['Id'];
     }
 
     constructor(service, busName, object) {
