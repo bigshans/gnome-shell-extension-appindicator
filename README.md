@@ -5,8 +5,8 @@ This extension integrates Ubuntu AppIndicators and KStatusNotifierItems (KDE's b
 
 ## Features
 * Show indicator icons in the panel.
-* Reveal indicator menus upon click.
-* Double clicking an icon will activate the application window (if implemented by the indicator).
+* Reveal indicator menus upon **double-clicking**.
+* **Clicking** an icon will activate the application window (if implemented by the indicator).
 * Legacy tray icons
 * Middle mouse click an icon to send a 'SecondaryActivate' event to the application. Support needs to be implemented in the application. [Info 1](https://bugs.launchpad.net/unity/+bug/812933), [Info 2](https://developer.ubuntu.com/api/devel/ubuntu-13.10/c/AppIndicator3-0.1.html).
 
