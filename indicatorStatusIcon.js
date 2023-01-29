@@ -351,7 +351,7 @@ class AppIndicatorsIndicatorStatusIcon extends BaseStatusIcon {
         if (time > (this._lastClickTime + doubleClickTime) ||
             (Math.abs(x - this._lastClickX) > doubleClickDistance) ||
             (Math.abs(y - this._lastClickY) > doubleClickDistance))
-            this._clickCount = 0;
+            this._clickCount = 1;
 
         this._lastClickTime = time;
         this._lastClickX = x;
